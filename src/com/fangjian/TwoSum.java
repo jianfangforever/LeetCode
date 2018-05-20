@@ -22,7 +22,10 @@ public class TwoSum {
 	public static int[] twoSum(int[] nums, int target) {
 		int[] result = new int[2];
 		int length = nums.length;
-		//
+        /**
+         * 下面注释的if代码是一开始的想法：如果遍历到的数大于target了，就不再遍历了
+         * 但是没有考虑到0和负数的情况
+         */
 		for (int i = 0; i < length; i++){
 //            if (nums[i] > target){
 //                continue;

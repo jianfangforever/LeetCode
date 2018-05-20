@@ -22,6 +22,7 @@ public class TwoSum {
 	public static int[] twoSum(int[] nums, int target) {
 		int[] result = new int[2];
 		int length = nums.length;
+		//
 		for (int i = 0; i < length; i++){
 //            if (nums[i] > target){
 //                continue;
